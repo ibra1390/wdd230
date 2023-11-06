@@ -53,6 +53,7 @@ nav .active {
 }
 
 main {
+    margin-top: auto;
     padding: 5px;
     text-align: center;
 }

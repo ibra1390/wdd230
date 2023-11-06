@@ -13,6 +13,7 @@
         display: inline-block;
         width: 25%;
         margin-right: -4px;
+        
     }
 
     body{
@@ -24,4 +25,5 @@
     footer {
         margin-top: auto;
     }
+
 }
