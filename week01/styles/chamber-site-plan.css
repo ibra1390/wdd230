@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Roboto:wght@100&display=swap');
+
+:root {
+    --primary: #000814;
+    --secondary: #001D3D;
+    --accent1: #219ebc;
+    --accent2: #FFC300;
+
+    --heading-font: 'Gloock', serif;
+    --paragraph-font: 'Roboto', sans-serif;
+
+}
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+     padding: 4em;
+    font-size: 18px;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+header {
+    padding: 1em;
+    text-align: center;
+    color: var(--accent1);
+    background-color: var(--secondary);
+}
+
+hr {
+    height: 3px;
+    margin: 35px 0;
+    background: var(--accent2);
+}
+
+
+table {
+    margin: 0 auto;
+    background-color: grey;
+}
+
+h2 {
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+}
+
+.colors {
+    width: 100%;
+    min-width: 350px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.colors th {
+    background-color: #999;
+}
+
+.colors td {
+    width: 25%;
+    height: 3em;
+}
+.primary {
+    background-color: var(--primary);
+    color: white;
+}
+
+.secondary {
+    background-color: var(--secondary);
+    color: white;   
+}
+
+.accent1 {
+    background-color: var(--accent1);
+}
+
+.accent2 {
+    background-color: var(--accent2);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 0 10px;
+}
+
+
+
