@@ -36,7 +36,8 @@ nav ul {
 }
 
 nav a {
-    display: block;
+    display: flex;
+    flex-direction: column;
     color: #fff;
     text-align: center;
     padding: .5rem;
