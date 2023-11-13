@@ -38,7 +38,7 @@ nav ul {
 nav a {
     display: flex;
     flex-direction: column;
-    color: #fff;
+    color: black;
     text-align: center;
     padding: .5rem;
     text-decoration: none;
@@ -47,10 +47,12 @@ nav a {
 
 nav a:hover {
     background-color: rgba(255,255,255,0.2);
+    color: #ffff;
 }
 
 nav .active {
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0.2);
+    
 }
 
 main {
