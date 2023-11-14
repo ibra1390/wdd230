@@ -107,6 +107,7 @@ footer {
 	padding: 3px 7px 6px;
 	background-color: #eee;
 	color: #000;
+    text-align: left;
 }
 
 #menu::before {
@@ -130,7 +131,7 @@ footer {
 .navigation li a {
 	display: block;
 	padding: 1rem;
-	text-align: center;
+	text-align: left;
 	text-decoration: none;
 	color: #fff;
 }
