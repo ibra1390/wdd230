@@ -16,6 +16,7 @@ header {
     justify-content: center;
     padding: 20px;
     color: white;
+    position: relative;
 }
 
 h1 {
@@ -147,5 +148,26 @@ footer {
 }
 .open li a {
 	display: block;
+}
+
+/* ------ DARK MODE ----- */
+#mode {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+    width: 50px;
+	font-size: 3rem;
+	cursor: pointer;
+	font-size: 1.5rem;
+}
+
+.dark {
+    background-color: #000;
+	color: #fff;
+}
+
+.dark .card{
+    box-shadow: 2px 2px #fff;
+    border-color: #eee; 
 }
 
