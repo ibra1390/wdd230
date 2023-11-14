@@ -9,11 +9,9 @@
         grid-column: 1 / span 2;
     }
 
-    nav li {
-        display: inline-block;
-        width: 25%;
-        margin-right: -4px;
-        
+    nav {
+        flex-direction: row;
+       
     }
 
     body{
@@ -26,4 +24,23 @@
         margin-top: auto;
     }
 
+
+    /* ------ HAMBURGER MENU ----- */
+    #menu {
+        display: none; /* hide hamburger button */
+    }
+
+    .navigation {
+        flex-direction: row;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
 }
+
+
+
+
