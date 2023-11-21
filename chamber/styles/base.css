@@ -62,10 +62,10 @@ nav a:hover {
 
 #CallToAction {
     background-color: var(--accent1);
-    color:white;
+    color: var(--primary);
     border-radius: 4px;
     padding: 10px;
-    border: 2px solid var(--secondary);
+    border: 2px solid var(--primary);
     text-decoration: none;
     position: relative;
     top: -40px;
