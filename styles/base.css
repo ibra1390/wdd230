@@ -56,6 +56,29 @@ nav .active {
     
 }
 
+.hero {
+    grid-column: 1/3;
+    position: relative;
+    border: 1px solid rgba(0,0,0,.1);
+    
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.hero-label {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    background: radial-gradient(#fff, #4D5B97);
+	border: 1px solid rgba(0,0,0,.75);
+	padding: 1.5rem;
+	box-shadow: 0 0 3rem #fff;
+	opacity: 0.75;
+}
+
 main {
     margin-top: auto;
     padding: 5px;
@@ -81,6 +104,10 @@ hr {
     
 }
 
+.card p {
+    text-align: center;
+}
+
 .card ul {
     margin: 1rem;
     list-style-type: none;
@@ -93,6 +120,13 @@ hr {
     padding: 1rem;
     border-radius: 4px 4px 0 0;
 }
+
+.map {
+    grid-column: 1/3;
+    justify-self: center;
+    width: 100%;
+}
+
 /* ------ FOOTER ----- */
 footer {
     background-color: #0077b6;
@@ -170,4 +204,5 @@ footer {
     box-shadow: 2px 2px #fff;
     border-color: #eee; 
 }
+
 

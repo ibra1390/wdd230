@@ -20,7 +20,7 @@
 </head>
 <body>
     <header>
-        <img src="images/Ibra.jpeg" alt="Ibraim Gonzalez photo" width="90" height="120">
+        <img src="images/Ibra.webp" alt="Ibraim Gonzalez photo" width="90" height="120">
         <h1>Ibraim Gonzalez V.</h1>
         <img src="images/dark.svg" alt="dark mode" id="mode">
     </header>
@@ -34,8 +34,17 @@
         </ul>
     </nav>
     <main>
-        <h2>WDD 230: Web Frontend Development</h2>
-        
+        <div class="hero">
+            <picture>
+                <source srcset="images/mexico-temple-small.webp" media="(max-width: 400px)">
+                <source srcset="images/mexico-temple-larger.webp" media="(max-width: 600px)">
+                <img src="images/mexico-temple-larger.webp" alt="Mexico city Temple" width="960">
+            </picture>
+            <div class="hero-label">
+                <p>Mexico city Temple</p>
+            </div>
+        </div>
+        <h2>WDD 230: Web Frontend Development</h2> 
         <section class="card">
             <h3>Learning Activities</h3>
             <ul>
@@ -49,17 +58,20 @@
         </section>
         <section class="card">
             <h3>Information</h3>
+            <p>Mexico city</p>
             <p>Weather</p>
-            <p>Number of visits</p>
+            <p><span class="label-visits">Number of Visits: </span><span class="visits"></span></p>
         </section>
     </main>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4485.043659487661!2d-98.20105903985774!3d19.043628517223322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cfc0e79802f289%3A0x7a4c1293b30a34d6!2sZ%C3%B3calo%20de%20Puebla!5e0!3m2!1ses-419!2smx!4v1700947468144!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
     <footer>
         <p>&copy; <span id="year"></span> | Ibraim Gonzalez | Mexico</p>
-        <img src="images/mexico.png" alt="Mexico flag">
+        <img src="images/mexico.webp" alt="Mexico flag">
         <p id="lastModified"></p>
     </footer>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/hamburgerMenu.js"></script>
     <script src="scripts/darkMode.js"></script>
+    <script src="scripts/visitsCounter.js"></script>
 </body>
 </html>
