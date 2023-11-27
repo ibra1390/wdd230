@@ -1,0 +1,48 @@
+:root {
+	--back: #000000;
+    --back2: #333333;
+    --fontcolor: #000000;
+	--fontcolor2: #ffffff;
+	--border: #000000;
+	--borderlight: #aaaaaa;
+	--zebra: #dddddd;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+    color: var(--fontcolor);
+    font-size: .85rem;
+}
+
+
+thead tr th:first-child{
+    color: var(--fontcolor2);
+    background-color: var(--back);
+}
+
+thead tr:last-child{
+    color: var(--fontcolor2);
+    background-color: var(--back2);
+}
+
+td, th {
+    text-align: center;
+    padding: 8px;
+}
+
+td {
+    border: 1px solid var(--borderlight);
+}
+
+th {
+    border: 1px solid var(--border);
+}
+
+tr:nth-child(even) {
+    background-color: var(--zebra);
+}
