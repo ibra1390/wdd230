@@ -120,7 +120,7 @@
     .discover-images img:hover {
         border-radius: 15px 150px;
         float:left; 
-        shape-outside: circle();
+        shape-outside: circle(0);
         box-shadow: 0 0 50px #333;
     }
     
