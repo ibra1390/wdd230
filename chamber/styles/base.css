@@ -148,3 +148,28 @@ footer {
 .open li a {
 	display: block;
 }
+
+/* ------ DISCOVER ----- */
+
+#discover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#headingDiscover {
+    font-size: 30px;
+}
+
+#discover div h4 {
+    text-align: center;
+    padding: 0.5rem;
+}
+
+#sidebar h3{
+    margin: 1.5rem;
+}
+
+#sidebar li{
+    list-style: none;
+}

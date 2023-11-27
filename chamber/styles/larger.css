@@ -59,4 +59,69 @@
     }
 
 
+    /* ------ DISCOVER ----- */
+    #discover {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-rows: 150p 1fr 1fr 1fr;
+    }
+
+    div img {
+        padding: 0.5rem;
+        margin: 0.5rem;
+
+    }
+
+    #headingDiscover{
+        grid-column: 2/4;
+        grid-row: 1/2;
+
+    }
+
+    #catedral {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    
+    }
+
+    #cholula {
+        grid-column: 3/4;
+        grid-row: 2/3;
+    }
+
+    #barrio{
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+
+    #museos {
+        grid-column: 3/4;
+        grid-row: 3/4;
+    }
+
+    #estrella{
+        grid-column: 2/3;
+        grid-row: 4/5;
+    }
+
+    #zacatlan {
+        grid-column: 3/4;
+        grid-row: 4/5;
+    }
+
+    #sidebar {
+        grid-column: 1/2;
+        grid-row: 1/3;
+        margin: 0.5rem;
+        padding: 0.5rem;
+    
+    }
+
+    main div img:hover {
+        border-radius: 15px 150px;
+        float:left; 
+        shape-outside: circle();
+        box-shadow: 0 0 50px #333;
+    }
+    
 }
