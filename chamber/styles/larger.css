@@ -63,7 +63,7 @@
     #discover {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr ;
-        grid-template-rows: 150p 1fr 1fr 1fr;
+        grid-template-rows: 150px 1fr 1fr 1fr;
     }
 
     div img {
