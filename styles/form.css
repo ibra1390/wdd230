@@ -1,0 +1,103 @@
+:root {
+    --primary: #445ba9;
+    --secondary: #9c2c13;
+    --accent1: #999;
+    --accent2: #555;
+}
+
+#form {
+    grid-column: 1/3;
+    margin: 1rem;
+}
+
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid var(--primary);
+    border-radius: 10px;
+    padding: .5rem 2%; 
+}
+
+form legend {
+    color: var(--primary);
+    margin: 0 1rem;
+    padding: 0 .5rem;
+
+}
+
+form label.top input {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 1rem;
+    border: solid 1px var(--accent1);
+    border-radius: 4px;
+    padding: .75rem;
+    color: var(--accent2);
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.1);
+}
+
+
+form label.top {
+    display: block;
+    padding-top: 1rem;
+    font-size: .8rem;
+    padding-bottom: .5rem;
+    padding-top: 1.5rem;
+    
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: var(--primary);
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 100%;
+    max-width: 20rem;
+}
+
+form label.top input:required {
+    border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
+
+#r {
+	width: 180px;
+	margin-bottom: 0;
+}
+
+#rangevalue {
+	font-size: 2rem;
+	color: navy;
+}
+
+#rangevalues {
+	display: flex;
+	margin: 0 0 0 25px;
+	width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#rangevalues option {
+	flex: 1 1 auto;
+    
+}
+
+#passwordMessage {
+	visibility: none;
+	margin: 10px;
+	padding: 0.5rem;
+	color: red;
+    text-align: center;
+}
+
+.record-message{
+    grid-column: 1/3;
+}
