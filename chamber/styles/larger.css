@@ -136,6 +136,7 @@
         padding-right: 1rem;
         margin-right: 1rem;
     }
+    
     main#join section#benefits {
         grid-column: 2/3;
         grid-row: 2/3;
@@ -143,9 +144,7 @@
         margin-left: 1rem;
     }
 
-    section#benefits h2{
-        margin-bottom: 2rem;
-    }
+    
 
 
 

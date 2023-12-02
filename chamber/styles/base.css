@@ -262,6 +262,18 @@ form input.submitBtn {
 
 }
 
+section#benefits h2{
+    margin-bottom: 0.5rem;
+}
+
+div.division h3 {
+    margin-bottom: .2rem;
+}
+
+div.division ul {
+    margin-bottom: 1rem;
+}
+
 .thanksMsg {
     grid-column: 1/3;
     width: 100%;
