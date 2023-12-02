@@ -1,0 +1,24 @@
+{
+    "familyName" : "Mendoza",
+    "moveDate" : "01-15-2023",
+    "NumberMembers" : 3,
+    "BishopricVisit" : true,
+    "active" : true,
+    "familyMembers" : [
+      {
+        "name" : "John",
+        "gender" : "male",
+        "birthdate" : "05-28-1976"
+      },
+      {
+        "name" : "Monica",
+        "gender" : "female",
+        "birthdate" : "08-12-1980"
+      },
+      {
+        "name" : "Maria",
+        "gender" : "female",
+        "birthdate" : "02-19-2015"
+      }
+    ]
+  }
