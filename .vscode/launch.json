@@ -12,7 +12,6 @@
                 "<node_internals>/**"
             ],
             "program": "${workspaceFolder}\\week05\\scripts\\weather.js"
-            
         }
     ]
 }
