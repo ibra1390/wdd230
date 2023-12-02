@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puebla Chamber of Commerce</title>
+    <meta name="description" content="Join the Chamber of Commerce in Puebla, Mexico">
+    <meta name="author" content="Ibraim Gonzalez Vergara">
+    <meta property="og:title" content="Ibraim Gonzalez - WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://ibra1390.github.io/wdd230/images/puebla.jpg">
+    <meta property="og:url" content="https://ibra1390.github.io/wdd230/chamber/index.html">
+    <link rel="preconnect"  href="https://fonts.googleapis.com">
+    <link rel="preconnect"  href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gloock&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet"  href="styles/base.css">
+    <link rel="stylesheet"  href="styles/larger.css">
+    <link rel="icon" href="puebla.ico">
+</head>
+<body>
+    <header>
+        <h1>Puebla Chamber of Commerce</h1>
+    </header>
+    <nav>
+        <a id="menu" href="#"></a>
+        <ul class="navigation">
+            <li><a href="index.html" title="Home" class="active">Home</a></li>
+            <li><a href="discover.html" title="Discover">Discover</a></li>
+            <li><a href="#" title="Directory">Directory</a></li>
+            <li><a href="join.html" title="Join">Join</a></li>
+        </ul>
+    </nav>
+    <main id="join">
+        <section id="form">
+            <h2>Join Now!</h2>
+          <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>Applicant Information</legend>
+                <label class="top">First Name*<input type="text" id="fname" name="fname" required></label>
+                <label class="top">Last Name*<input type="text" id="lname" name="lname" required></label>
+                <label class="top">Title or Position<input type="text" id="title" name="title" pattern="[A-Za-z\-\s]{7,}"></label>
+                <label class="top">Email*<input type="email" id="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label class="top">Phone Number*<input type="tel" id="phone" name="phone" placeholder="1235551234" required></label>
+                <label class="top">Business/Organization's Name*<input type="text" id="business" name="business" required></label>
+              <div>     
+                Membership Level
+                <label class="sbs"><input type="radio" name="membership" value="np"> NP Membership (Non-profit Organizations)</label>
+                <label class="sbs"><input type="radio" name="membership" value="bronze"> Bronze Membership</label>
+                <label class="sbs"><input type="radio" name="membership" value="silver"> Silver Membership</label>
+                <label class="sbs"><input type="radio" name="membership" value="gold"> Gold Membership</label></div>
+
+                <label class="top">Business/Organization's Description<textarea name="description" id="description"></textarea></label>
+                <label class="top"><input type="hidden" name="timestamp" id="timestamp"></label>
+            </fieldset>
+            <input type="submit" value="Join the Chamber" class="submitBtn">
+          </form>
+        </section>
+        <section id="benefits">
+            <h2>Membership Benefits</h2>
+            <div class="division">
+                <h3>NP Membership </h3>
+                <ul>
+                    <li>For non-profit organizations and there is no fee.</li>
+                    <li>Events & Programs</li>
+                    <li>Business Development</li>
+                    <li>Marketing and promotional opportunities</li>
+                </ul>
+            </div>
+            <div class="division">
+                <h3>Bronze Membership</h3>
+                <ul>
+                    <li>$50 Monthly</li>
+                    <li>10% Discount on Events & Programs</li>
+                    <li>Business Development</li>
+                    <li>Professional Development</li>
+                    <li>Marketing and promotional opportunities</li>
+                </ul>  
+            </div> 
+            <div class="division">
+                <h3>Silver Membership</h3>
+                <ul>
+                    <li>$60 Monthly</li>
+                    <li>20% Discount on Events & Programs</li>
+                    <li>Business Development</li>
+                    <li>Professional Development</li>
+                    <li>Marketing and promotional opportunities</li>
+                    <li>Chamber Policy Councils</li>
+                </ul> 
+            </div>
+            <div class="division">
+                <h3>Gold Membership</h3>
+                <ul>
+                    <li>$80 Monthly</li>
+                    <li>40% Discount on Events & Programs</li>
+                    <li>Business Development</li>
+                    <li>Professional Development</li>
+                    <li>Marketing and promotional opportunities</li>
+                    <li>Chamber Policy Councils</li>
+                    <li>Exclusive Member Calls and Newsletters</li>
+                    <li>Member discount on ChamberJobs postings</li>
+    
+                </ul>  
+            </div>
+        </section>
+    </main>  
+    <footer><div id="contact">
+        <p>email</p>
+        <p>phone number</p>
+        <p>address</p>
+    </div>
+
+        <p>&copy; <span id="year"></span> | Ibraim Gonzalez | WDD 230 </p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamburgerMenu.js"></script>
+</body>
+</html>

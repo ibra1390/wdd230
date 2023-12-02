@@ -173,3 +173,95 @@ footer {
 #sidebar li{
     list-style: none;
 }
+
+/* ------ FORM-----*/
+
+#form h2 {
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+main#join{
+    display: flex;
+    flex-direction: column;
+    padding: .5rem;
+}
+
+form{
+    margin-bottom: 3rem;
+}
+
+form fieldset {
+    border: 2px solid var(--accent1);
+    border-radius: 10px;
+    background-color: #eaeef1;
+    padding: 0.5rem;
+}
+
+form legend {
+    color: var(--primary);
+    font-size: 1.3rem;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label, fieldset div {
+    color:black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
+    font-weight: bolder;
+}
+
+form label.top, form label textarea, fieldset div{
+    display: block;
+    padding-bottom: 1rem;
+}
+
+form label.top input{
+    display: block;
+}
+
+form label.sbs{
+    display: block;
+    padding-bottom: .5rem;
+    font-weight: lighter;
+}
+
+fieldset div label{
+    font-size: 1rem;
+}
+
+fieldset div label:nth-child(1){
+   padding-top: .5rem;
+}
+
+form label.top input, form label textarea{
+    width: 100%;
+    max-width: 300px;
+    border-radius: 2px;
+    border: .5px solid #0A60AF;
+}
+form label.top input:required {
+    border-left: red solid 3px;
+}
+
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
+
+form label textarea{
+    height: 200px;
+    margin-top: .5rem;
+}
+
+form input.submitBtn {
+    padding: .5rem .75rem;
+    background-color: #445ba9;
+    color: white;
+    width: 96%;
+    max-width: 20rem;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.5rem;
+}
