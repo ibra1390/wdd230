@@ -106,6 +106,7 @@ hr {
 
 .card p {
     text-align: center;
+    margin: 0.5rem;
 }
 
 .card ul {
@@ -127,6 +128,7 @@ hr {
     width: 100%;
     padding: 1.5rem;
 }
+
 
 /* ------ FOOTER ----- */
 footer {
