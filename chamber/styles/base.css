@@ -282,7 +282,7 @@ div.division ul {
 }
 
 /* ----------DIRECTORY -------------*/
-/*    -----GRID-----       */
+
 #directory.grid{
     display: grid;
     padding: 5px;
@@ -315,7 +315,7 @@ div.division ul {
     text-align: center;
 }
 
-/*     -----LIST------     */
+
 #directory.list{
     display: flex;
     flex-direction: column;
