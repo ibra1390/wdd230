@@ -12,19 +12,20 @@ async function getMembers() {
 
 function displayMembers(members) {
     members.forEach((member) => {
+        
         let section = document.createElement('section');
         let image = document.createElement('img');
-        let company = document.createElement('p');
+        let business = document.createElement('p');
         let name = document.createElement('p');
         let phone = document.createElement('p');
         let address = document.createElement('p');
         let website = document.createElement('p');
         let url = document.createElement('a');
         let membership = document.createElement('p');
-        
+       
         image.setAttribute('src', member.image);
-        company.textContent = `${member.company}`;
-        company.setAttribute('class', "company");
+        business.textContent = `${member.business}`;
+        business.setAttribute('class', "business");
         name.textContent = `${member.name}`;
         name.setAttribute("class", "name");
         phone.textContent = `${member.phone}`;
@@ -40,7 +41,7 @@ function displayMembers(members) {
         membership.setAttribute("class","membership");
         
         section.appendChild(image);
-        section.appendChild(company);
+        section.appendChild(business);
         section.appendChild(name);
         section.appendChild(phone);
         section.appendChild(address);
