@@ -1,65 +1,65 @@
 {
     "members": [
       {
-        "company": "Meyers Truck Service, LLC",
+        "business": "Meyers Truck Service, LLC",
         "name": "Randy Meyers",
         "address": "9562 Highway 15, Mexico, MO, 65265",
         "phone": "573-581-3224",
-        "website": "https://www.meyerstruckservice.com/",
+        "url": "https://www.meyerstruckservice.com/",
         "image": "https://cdn.membershipworks.com/u/61e8b43439300d53231fdbf8_lgl.jpg?1663349168",
         "membership": "Silver"
       },
       {
-        "company": "Grafs Reloading Supercenter",
+        "business": "Grafs Reloading Supercenter",
         "name":"Marjorie Graf",
         "address": "4132 South Clark Street, Mexico, Sonora, 65265",
         "phone": "573-581-9777",
-        "website": "http://www.grafs.com/",
+        "url": "http://www.grafs.com/",
         "image": "https://cdn.membershipworks.com/u/61e8b43339300d53231fdb99_lgl.jpg?1669066975",
         "membership": "Bronze"
       },
       {
-        "company":"EDF Renewables, Inc.",
+        "business":"EDF Renewables, Inc.",
         "name": "Stephanie Miller",
         "address": "3600 American Blvd. W. #400, Bloomington, MN, 55431, US",
         "phone": "858-922-8390",
-        "website": "https://www.edf-re.com",
+        "url": "https://www.edf-re.com",
         "image": "https://cdn.membershipworks.com/u/64947c56bd04cf1867218fe6_lgl.jpg?1688152365",
         "membership": "Bronze"
       },
       {
-        "company":"Tractor Supply",
+        "business":"Tractor Supply",
         "name": "Sherie Hewgley",
         "address": "3001 South Clark, Mexico, MO, 65265, US",
         "phone": "573-581-6341",
-        "website": "https://www.tractorsupply.com",
+        "url": "https://www.tractorsupply.com",
         "image": "https://cdn.membershipworks.com/u/649f20e71cb45d18dd7c0094_lgl.jpg?1688152287",
         "membership": "Silver"
       },
       {
-        "company":"Mexico Area YMCA",
+        "business":"Mexico Area YMCA",
         "name": "Brooke Jameson",
         "address": "1127 Adams, California, US",
         "phone": "573-581-1540",
-        "website": "https://www.mexicoymca.org/",
+        "url": "https://www.mexicoymca.org/",
         "image": "https://cdn.membershipworks.com/u/61e8b43439300d53231fdbe4_lgl.jpg?1683909549",
         "membership": "Gold"
       },
       {
-        "company":"Audrain Cattlemen's Association",
+        "business":"Audrain Cattlemen's Association",
         "name": "Andrew Cauthorn",
         "address": "PO Box 873, Mexico, Puebla, 72760",
         "phone": "223-214-6421",
-        "website": "https://www.facebook.com/pages/category/Community-Organization/Audrain-County-Cattlemens-601734776664277/",
+        "url": "https://www.facebook.com/pages/category/Community-Organization/Audrain-County-Cattlemens-601734776664277/",
         "image": "https://cdn.membershipworks.com/u/61e8b43239300d53231fdb35_lgl.jpg?1663344472",
         "membership": "Non-profit"
       },
       {
-        "company":"Chariton Valley",
+        "business":"Chariton Valley",
         "name": "Daren Dowell",
         "address": "1213 E. Briggs Dr.Macon, MO, 63552, US",
         "phone": "573-629-5552",
-        "website": "https://www.cvalley.net/",
+        "url": "https://www.cvalley.net/",
         "image": "https://cdn.membershipworks.com/u/61e8b43339300d53231fdb62_lgl.jpg?1679685289",
         "membership": "Gold"
       }
