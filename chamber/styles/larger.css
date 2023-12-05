@@ -144,13 +144,23 @@
         margin-left: 1rem;
     }
 
-    
 
+     /*-------DIRECTORY-----*/
+    /*-------List---------*/
+    #directory.list section{
+        display: flex;
+        flex-direction: row;
+        width:100%
 
+    }
 
-
-
-
+    p.name, p.membership{
+        display: none;
+    }   
+    #directory.list section p{
+        padding: 5px;
+        width: 200px
+    }
 
 
 }
