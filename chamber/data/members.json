@@ -1,16 +1,16 @@
 {
     "members": [
       {
-        "business": "Meyers Truck Service, LLC",
+        "company": "Meyers Truck Service, LLC",
         "name": "Randy Meyers",
         "address": "9562 Highway 15, Mexico, MO, 65265",
         "phone": "573-581-3224",
-        "url": "https://www.meyerstruckservice.com/",
+        "website": "https://www.meyerstruckservice.com/",
         "image": "https://cdn.membershipworks.com/u/61e8b43439300d53231fdbf8_lgl.jpg?1663349168",
         "membership": "Silver"
       },
       {
-        "business": "Grafs Reloading Supercenter",
+        "company": "Grafs Reloading Supercenter",
         "name":"Marjorie Graf",
         "address": "4132 South Clark Street, Mexico, Sonora, 65265",
         "phone": "573-581-9777",
@@ -19,7 +19,7 @@
         "membership": "Bronze"
       },
       {
-        "business":"EDF Renewables, Inc.",
+        "company":"EDF Renewables, Inc.",
         "name": "Stephanie Miller",
         "address": "3600 American Blvd. W. #400, Bloomington, MN, 55431, US",
         "phone": "858-922-8390",
@@ -28,7 +28,7 @@
         "membership": "Bronze"
       },
       {
-        "business":"Tractor Supply",
+        "company":"Tractor Supply",
         "name": "Sherie Hewgley",
         "address": "3001 South Clark, Mexico, MO, 65265, US",
         "phone": "573-581-6341",
@@ -37,7 +37,7 @@
         "membership": "Silver"
       },
       {
-        "business":"Mexico Area YMCA",
+        "company":"Mexico Area YMCA",
         "name": "Brooke Jameson",
         "address": "1127 Adams, California, US",
         "phone": "573-581-1540",
@@ -46,16 +46,16 @@
         "membership": "Gold"
       },
       {
-        "business":"Audrain Cattlemen's Association",
+        "company":"Audrain Cattlemen's Association",
         "name": "Andrew Cauthorn",
         "address": "PO Box 873, Mexico, Puebla, 72760",
         "phone": "223-214-6421",
-        "url": "https://www.facebook.com/pages/category/Community-Organization/Audrain-County-Cattlemens-601734776664277/",
+        "url": "https://www.facebook.com/profile.php?id=100068738387347",
         "image": "https://cdn.membershipworks.com/u/61e8b43239300d53231fdb35_lgl.jpg?1663344472",
         "membership": "Non-profit"
       },
       {
-        "business":"Chariton Valley",
+        "company":"Chariton Valley",
         "name": "Daren Dowell",
         "address": "1213 E. Briggs Dr.Macon, MO, 63552, US",
         "phone": "573-629-5552",

@@ -15,7 +15,7 @@ function displayMembers(members) {
         
         let section = document.createElement('section');
         let image = document.createElement('img');
-        let business = document.createElement('p');
+        let company = document.createElement('p');
         let name = document.createElement('p');
         let phone = document.createElement('p');
         let address = document.createElement('p');
@@ -24,8 +24,8 @@ function displayMembers(members) {
         let membership = document.createElement('p');
        
         image.setAttribute('src', member.image);
-        business.textContent = `${member.business}`;
-        business.setAttribute('class', "business");
+        company.textContent = `${member.company}`;
+        company.setAttribute('class', "company");
         name.textContent = `${member.name}`;
         name.setAttribute("class", "name");
         phone.textContent = `${member.phone}`;
@@ -41,7 +41,7 @@ function displayMembers(members) {
         membership.setAttribute("class","membership");
         
         section.appendChild(image);
-        section.appendChild(business);
+        section.appendChild(company);
         section.appendChild(name);
         section.appendChild(phone);
         section.appendChild(address);
