@@ -1,12 +1,12 @@
 @media screen and (min-width: 500px) {
+    
     nav {
         flex-direction: row;
     }
 
-      main {
+    main {
         margin: 0 auto;
         display: grid;
-        grid-template-columns: 2fr 1fr;
     }
 
     #hero-banner {
@@ -162,7 +162,6 @@
         width: 200px
     }
 
-    /*------Grid------*/
 
     #directory.grid{
         grid-template-columns: 1fr 1fr 1fr;
