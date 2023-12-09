@@ -82,11 +82,20 @@ nav a:hover {
     object-fit: cover;
 }
 
-.events-card, .weather-card, .spotlight-card {
+.events-card, .weather-card {
     border: var(--secondary) solid 5px;
     margin: 5px;
     padding: 10px;
     text-align: center;
+}
+
+.spotlight-card1, .spotlight-card2, .spotlight-card3 {
+    border: var(--secondary) solid 5px;
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .cards h2 {
