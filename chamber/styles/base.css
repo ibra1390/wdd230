@@ -127,6 +127,11 @@ footer {
     padding: .75rem;
     text-align: center;
     color: white;
+  
+}
+
+footer div p {
+    margin: 5px;
 }
 
 /* ------ HAMBURGER MENU ----- */
