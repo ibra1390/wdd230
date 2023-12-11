@@ -181,20 +181,20 @@ footer {
 /* ---- BANNER ----- */
 .banner {
     width: 100%;
-    padding: 20px;
-    background-color: var(--accent2); 
-    color: #ffffff; 
-    text-align: center;
+    padding: 5px;
+    background-color: #eecd60; 
+    color: black; 
+    align-items: center;
     font-size: 18px;
-    flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 #closeBanner{
+    background-color: #eecd60; 
     padding: 5px;
-    margin: 10px;
-    font-weight: 300;
+    margin: 5px;
     border: none;
+    cursor: pointer;
 }
 
 /* ------ DISCOVER ----- */
