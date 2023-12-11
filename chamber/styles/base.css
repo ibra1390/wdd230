@@ -178,6 +178,25 @@ footer {
 	display: block;
 }
 
+/* ---- BANNER ----- */
+.banner {
+    width: 100%;
+    padding: 20px;
+    background-color: var(--accent2); 
+    color: #ffffff; 
+    text-align: center;
+    font-size: 18px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#closeBanner{
+    padding: 5px;
+    margin: 10px;
+    font-weight: 300;
+    border: none;
+}
+
 /* ------ DISCOVER ----- */
 
 #discover {
