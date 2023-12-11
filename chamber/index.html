@@ -34,7 +34,7 @@
     <main>
         <div id="hero-banner">
             <img src="images/puebla-hero.jpg" alt="Puebla landscape" id="hero-img"/>
-            <a href="#" id="CallToAction">Join Now!</a>
+            <a href="join.html" id="CallToAction">Join Now!</a>
         </div>
         <section class="events-card">
             <div>
@@ -43,16 +43,23 @@
             </div>
         </section>
         <section class="weather-card">
-            <div>
-                <h2>Weather</h2>
+            <div id="weather">
+                <h2>Today's Weather</h2>
                 <p>Puebla, Mexico</p>
                 <p id="current-temp"></p>
             <figure>
                 <img id="weather-icon" src="#" alt="#">
-                <figcaption></figcaption>
+                <figcaption id="tempDesc"></figcaption>
             </figure>
+                <div>
+                    <h2>Weather Forecast</h2>
+                    <p id="nextDay"></p>
+                    <p id="secondDay"></p>
+                    <p id="thirdDay"></p>
+                </div>
             </div>
         </section>
+        <h2 id="spotlight-title">Spotlight Chamber Members</h2>
         <section id="spotlight">
         </section>
     </main>
