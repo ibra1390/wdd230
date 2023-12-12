@@ -46,6 +46,10 @@ nav ul {
 
 }
 
+.active {
+    background-color: var(--primary);
+}
+
 nav a {
     display: flex;
     flex-direction: column;
